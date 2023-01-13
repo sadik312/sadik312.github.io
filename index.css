@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100&display=swap"); /*imported google font*/
+
+  body {
+    font-family: 'Azeret Mono', monospace; /*google imported font*/
+    font-size: 15px;
+    background-color: #1d2020;
+    }
+
+h1 {
+    font-family:'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #cc241d;
+    text-align: center;
+}
+
+p {
+    color: #fbf1c7;
+}
+
+.truth_lie, li{
+  list-style-type: square;
+  color:#b8bb26;
+  font-family: 'copperplate', fantasy;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 5px;
+  width: 40%;
+  float: center;
+}
+
+.center, figcaption {
+  color: #fbf1c7;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.input_form, .form_title{
+  color: #d79921;
+  font-weight: bold;
+}
