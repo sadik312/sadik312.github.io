@@ -1,26 +1,30 @@
-@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100&display=swap"); /*imported google font*/
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 
-  body {
-    font-family: 'Azeret Mono', monospace; /*google imported font*/
+body {
+    font-family: 'JetBrains Mono', monospace; /*google imported font*/
     font-size: 15px;
     background-color: #1d2020;
     }
 
 h1 {
     font-family:'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     color: #cc241d;
     text-align: center;
 }
 
 p {
-    color: #fbf1c7;
+   /* color: #fbf1c7;*/
+   color: #39FF14;
+   font-size: 20px;
+   padding-left: 10%;
+   padding-right: 10%;
 }
 
-.truth_lie, li{
-  list-style-type: square;
-  color:#b8bb26;
-  font-family: 'copperplate', fantasy;
+ul {
+  color: #39FF14;
+  font-size: 20px;
+  padding-left: 10%;
 }
 
 img {
@@ -37,9 +41,4 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
-
-.input_form, .form_title{
-  color: #d79921;
-  font-weight: bold;
 }
