@@ -3,13 +3,14 @@
 body {
     font-family: 'JetBrains Mono', monospace; /*google imported font*/
     font-size: 15px;
-    background-color: #1d2020;
+    background-color: #0d0d0d;
     }
 
 h1 {
     font-size: 30px;
-    color: #cc241d;
+    color: #FF0000;
     text-align: center;
+	margin: 0px;
 }
 
 p {
@@ -21,6 +22,9 @@ p {
 }
 
 nav > a{
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 20px;
+  color: #990099;
   padding:10px;
   display: flex;
   flex-direction: row;
@@ -39,17 +43,19 @@ ul {
 }
 
 img {
-  border: 1px solid #ddd;
-  border-radius: 20px;
+  border: 1px solid #FFF;
+  border-radius: 5px;
   padding: 5px;
-  width: 40%;
+  width: 10%;
   float: center;
 }
 
 .center, figcaption {
-  color: #fbf1c7;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 17px;
+  	color: #39FF14;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
 }
